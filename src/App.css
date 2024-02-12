@@ -4,3 +4,10 @@
   margin-right: auto;
   width: 25%;
 }
+
+.color{
+  background-color: black;
+}
+body{
+  color:aliceblue;
+}

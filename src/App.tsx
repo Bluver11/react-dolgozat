@@ -1,6 +1,6 @@
 import { useState,useEffect } from 'react'
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import './App.css'
 import CommentBox from './Component/CommentBox';
 import Header from './Component/Header';
 import Main from './Component/Main';
@@ -32,6 +32,7 @@ function App() {
 
 
   return (
+    <div className='color'>
     <>
    <Header/>
    <Main/><br />
@@ -45,6 +46,7 @@ function App() {
     </div>
     
     </>
+    </div>
   )
 
 }
